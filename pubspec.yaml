@@ -10,6 +10,8 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.2
+  get: ^4.6.6
+  google_fonts: ^6.1.0
 
 dev_dependencies:
   flutter_test:
@@ -18,11 +20,8 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
-  # To use a custom font, uncomment the lines below and add the font files
-  # fonts:
-  #   - family: Cairo
-  #     fonts:
-  #       - asset: assets/fonts/Cairo-Regular.ttf
-  #       - asset: assets/fonts/Cairo-Bold.ttf
-  #         weight: 700
+  
+  assets:
+    - assets/images/
+    
+  # استخدام Google Fonts بدلاً من الخطوط المحلية
